@@ -1,0 +1,65 @@
+@import "custom-variables";
+
+.navbar-default {
+  background-color: #fff;
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+  background-color: transparent;
+}
+
+.collapse {
+  .dropdown {
+    a {
+      & span {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.holder-form {
+  .wrapper {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+    padding: 15px;
+    p {
+      padding-bottom: 10px;
+      color: grey;
+      font-weight: bold;
+    }
+    .p-bottom {
+      padding-bottom: 15px;
+    }
+    .dropdown {
+      .btn-default {
+        width: 270px;
+        text-align: left;
+        color: grey;
+      }
+      .caret {
+        position: absolute;
+        right: 10px;
+      }
+      .caret-top {
+        transform: rotate(180deg);
+        top: 12px;
+      }
+      .caret-down {
+        top: 18px;
+      }
+    }
+    label {
+      color: gray;
+    }
+    .input-group {
+      width: 270px;
+    }
+    .btn-default {
+      color: #333;
+    }
+  }
+}
